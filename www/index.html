@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="//cdn.opencpu.org/opencpu-0.4.js"></script>
+<title>A scoring engine for predictive analytics with OpenCPU - JSFiddle</title>
+</head>
+
+<body>
+<div class="container">
+
+      <div class="page-header">
+        <h1>March Madness Predictor</h1>
+        <p class="lead"></p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <select id="teamA" class="form-control" data-width="auto">
+            <option value="one">Wisconsin</option>
+            <option value="two">Alabama</option>
+          </select>
+          <select id="teamB" class="form-control" data-width="auto">
+            <option value="one">Wisconsin</option>
+            <option value="two">Alabama</option>
+          </select>
+          <button id="submitbutton">Predict winner!</button> <br>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-hover">
+            <thead><tr><th>Team A</th><th>Team B</th><th>Predicted Winner</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
