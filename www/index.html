@@ -1,9 +1,9 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="//cdn.opencpu.org/opencpu-0.4.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/opencpu-0.4.js"></script>
 <title>A scoring engine for predictive analytics with OpenCPU - JSFiddle</title>
 </head>
 
@@ -18,12 +18,14 @@
       <div class="row">
         <div class="col-md-6">
           <select id="teamA" class="form-control" data-width="auto">
+            <option value="two">Denver</option>
+            <option value="two">Duke</option>
             <option value="one">Wisconsin</option>
-            <option value="two">Alabama</option>
           </select>
           <select id="teamB" class="form-control" data-width="auto">
+            <option value="two">Denver</option>
+            <option value="two">Duke</option>
             <option value="one">Wisconsin</option>
-            <option value="two">Alabama</option>
           </select>
           <button id="submitbutton">Predict winner!</button> <br>
         </div>
@@ -36,6 +38,6 @@
       </div>
 </div>
 
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
